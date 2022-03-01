@@ -9,4 +9,6 @@
 
 •	Grad-CAM method is used to generate heatmaps to visualize the important regions in the images.
 
-•	Developed webapp using FastAPI and deployed using Docker in AWS. The webapp link is given as follows: http://ec2-44-202-127-108.compute-1.amazonaws.com/
+•	Developed webapp using FastAPI and deployed using Docker in AWS. The webapp link is given as follows:
+
+http://ec2-44-202-127-108.compute-1.amazonaws.com/
