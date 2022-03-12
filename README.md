@@ -12,3 +12,5 @@
 •	Developed webapp using FastAPI and deployed using Docker in AWS. The webapp link is given as follows:
 
 http://ec2-44-202-127-108.compute-1.amazonaws.com/
+
+![image](https://user-images.githubusercontent.com/69506031/158002762-28527642-8a80-4aca-b61b-d084da74722f.png)
