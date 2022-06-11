@@ -1,0 +1,12 @@
+fastapi==0.73.0
+pydantic==1.9.0
+uvicorn==0.17.4
+Jinja2==3.0.3
+python-multipart==0.0.5
+
+numpy==1.20.1
+pandas==1.2.3
+matplotlib==3.5.1
+tensorflow==2.7
+
+protobuf~=3.19.0
