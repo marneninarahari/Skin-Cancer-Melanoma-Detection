@@ -1,0 +1,44 @@
+version: '3.9'
+
+services:
+
+ web:
+  build:
+    context: .
+  restart: always
+  ports:
+    - "8000:8000"
+  volumes:
+    - ./:/code
+  environment:
+    FLASK_ENV: development
+
+#  mysqldb:
+#   image: mysql
+#   ports:
+#   - 3307:3306
+#   environment:
+#   - MYSQL_ROOT_PASSWORD=Lionel10!
+#   volumes:
+#   - mysql:/var/lib/mysql
+#   - mysql_config:/etc/mysql
+
+# volumes:
+#   mysql:
+#   mysql_config:
+
+  # networks:
+  #   - backnet
+  #   - frontnet
+
+#  proxy:
+#   build: proxy
+#   restart: always
+#   ports:
+#     - 80:80
+#   networks:
+#     - frontnet
+
+# networks:
+#   backnet:
+#   frontnet:
